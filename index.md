@@ -11,3 +11,9 @@ public static void main(String[] args){
 
 [这是一个链接](./study_line.md)
 
+```json
+{
+    "aa":"BB"
+}
+```
+
