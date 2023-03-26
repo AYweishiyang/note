@@ -16,4 +16,4 @@ public static void main(String[] args){
     "aa":"BB"
 }
 ```
-
+[这是一个代理教程](./learnProxy.md)
