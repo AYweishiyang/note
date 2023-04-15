@@ -17,6 +17,7 @@ unset https_proxy
 Debian 
 https://blog.csdn.net/weixin_44071721/article/details/127162380
 
+```shell
 # 设置代理；
 echo 'export https_proxy="http://192.168.31.109:7890"' >> ~/.bashrc
 echo 'export http_proxy=$https_proxy' >> ~/.bashrc
@@ -36,3 +37,4 @@ echo 'ftp_proxy=http://192.168.31.109:7890' | tee -a /etc/wgetrc
 echo '#check_certificate = off' >> ~/.wgetrc
 # 取消代理；
 vim /etc/wgetrc # 编辑wgerrc文件删除或注释代理设置；
+```
